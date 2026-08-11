@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: Roboto, 'Times New Roman', sans-serif;
+    font-family: Roboto, sans-serif;
     background-color: #1F2937;
 }
 
@@ -26,12 +26,18 @@ ul {
     gap: 32px;
 }
 
+li {
+    flex-shrink: 0;
+}
+
 .logo {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
     margin: 16px;
     margin-left: 128px;
+
+    flex-shrink: 0;
 }
 
 .hero-main {
@@ -47,4 +53,22 @@ ul {
 
 button {
     background-color: #3882F6;
+    border-radius: 8px;
+    border: none;
+    color: #F9FAF8;
+    padding: 8px 16px;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.placeholder {
+    font-size: 18px;
+    color: #c1c7d4;
+    background-color: grey;
+    display: inline-block;
+    padding: 128px;
+
+    margin-top: 16px;
 }
