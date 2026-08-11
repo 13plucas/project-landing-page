@@ -10,24 +10,28 @@ body {
 
 .header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 ul {
+    font-size: 18px;
     list-style-type: none;
-    margin: 0;
     padding: 0;
-
+    margin: 16px;
+    margin-right: 128px;
+    color: #c1c7d4;
+    
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    gap: 32px;
 }
 
 .logo {
     font-size: 24px;
+    font-weight: bold;
     color: #F9FAF8;
-
-    display: flex;
-    align-items: center;
+    margin: 16px;
+    margin-left: 128px;
 }
 
 .hero-main {
@@ -38,7 +42,7 @@ ul {
 
 .hero-secondary {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #c1c7d4;
 }
 
 button {
